@@ -1,22 +1,21 @@
 .container{
-	text-align:center;
-	    background: ivory;
+	
+	    background:  #ccebff ;
 }
 
 
 img{
    height:100px;
+   margin-left:480px;
    
 }
-.first h1{
-	font-weight:600;
-}
+
 form{
 	padding:10px 10px;
 	background-color:white;
 	width:35%;
 	height:auto;
-	text-align:center;
+	
 	    margin-left: 400px;
 }
 
@@ -25,7 +24,7 @@ form{
 	width:45%;
 	height:25px;
 	border-radius:10px;
-	border-color:gray;
+	border:1px solid grey;
 	
 }
 
@@ -34,26 +33,26 @@ form{
 	width:45%;
 	height:25px;
 	border-radius:10px;
-	border-color:gray;
+	border:1px solid grey;
 	
 }
 
 #email{
 	padding:10px;
 	margin-top:10px;
-	width:90%;
+	width:94%;
 	height:25px;
 	border-radius:10px;
-	border-color:gray;
+	border:1px solid grey;
 		
 }
 #password{
 	padding:10px;
 	margin-top:10px;
-	width:90%;
+	width:94%;
 	height:25px;
 	border-radius:10px;
-	border-color:gray;
+	border:1px solid grey;
 	
 	
 	
@@ -62,28 +61,29 @@ form{
 	
 #day{
 	margin-top:10px;
-	width:25%;
-	height:30px;
+	width:32%;
+	height:40px;
 	border-radius:10px;
-	border:none;
-	background: antiquewhite;
+	border:1px solid grey;
+
 }
 
 #month{
 	margin-top:10px;
-	width:25%;
-	height:30px;
+	width:32%;
+	height:40px;
 	border-radius:10px;
-	border:none;
-	background: antiquewhite;
+	border:1px solid grey;
+	
+	
 }
 #year{
 	margin-top:10px;
-	width:25%;
-	height:30px;
+	width:32%;
+	height:40px;
 	border-radius:10px;
-	border:none;
-	background: antiquewhite;
+	border:1px solid grey;
+	
 }
 
 .btn button{
@@ -94,4 +94,44 @@ form{
 	height:40px;
 	background-color:#00a400;
 	color:white;
+	margin-left:150px;
+	margin-bottom:15px;
 }
+
+.redios{
+   display:flex;
+     justify-content: space-between;
+   
+}
+.male{
+	border:1px solid gray;
+	width:30%;
+	height:30px;
+	padding:8px 0px;
+	text-align: center;
+	border-radius:10px;
+}
+.female{
+	border:1px solid gray;
+	width:30%;
+	height:30px;
+	padding:8px 0px;
+	text-align: center;
+	border-radius:10px;
+}
+.custom{
+	border:1px solid gray;
+	width:30%;
+	height:30px;
+	padding:8px 0px;
+	text-align: center;
+	border-radius:10px;
+}
+.an{
+	
+	margin-left:130px;
+	 text-decoration: none;
+	 font-size:25px;
+	 color:blue;
+}
+
